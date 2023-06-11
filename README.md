@@ -94,7 +94,5 @@ This repository contains most important and frequently used design pattern, cate
 
 ### About Author
 My name is Ayush Naithani, At the time of writing this working as Software engineer @ Amazon.
-
 Motivation behind creating this repository is to share, gain and capture knowledge of design patterns.
-
 Incase if you want to connect you can find me on [LinkedIn](https://www.linkedin.com/in/ayush-naithani/), or [Gmail](mailto:ayushnaithani241@gmail.com).
