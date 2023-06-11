@@ -84,7 +84,7 @@ This repository contains most important and frequently used design pattern, cate
 1. First step would be to go through this Readme file to understand what are design patterns and why you should use them.
 2. Types of design patterns section contains design patterns categorized into three main types: creational, structural, and behavioral patterns.
 3. Let's say you want to know about any specific design pattern e.g. Abstarct Factory, 
-   1. Since Abstract factory is part of Creational Design pattern, so go to CreationalPatterns > AbstarctFactory > Readme.md
+   1. Since Abstract factory is part of Creational Design pattern, so go to `CreationalDesignPatterns > AbstarctFactoryPattern > Readme.md`
    2. Each design pattern has well written Readme with example and code.
 4. If you are just following full resource go through each design pattern based on **Frequency of use** starting from Creational, then Structural followed by Behavioral. First cover all design pattern having 5 ⭐ and 4 ⭐ in Frequency of use. This way you will get a good idea what each type contains and how categorization is done.
 
