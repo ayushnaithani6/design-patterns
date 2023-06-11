@@ -40,15 +40,15 @@ When you write code, you often encounter situations where you need to deal with 
 
 The following design patterns fall under the category of Structural Design patterns:
 
-| Status                  | Name      | Frequency of Use |
-|-------------------------|-----------|------------------|
-| <input type=checkbox /> | Facade    | ⭐⭐⭐⭐⭐            |
-| <input type=checkbox /> | Adapter   | ⭐⭐⭐⭐             |
-| <input type=checkbox /> | Composite | ⭐⭐⭐⭐             |
-| <input type=checkbox /> | Proxy     | ⭐⭐⭐⭐             |
-| <input type=checkbox /> | Bridge    | ⭐⭐⭐              |
-| <input type=checkbox /> | Decorator | ⭐⭐⭐              |
-| <input type=checkbox /> | Flyweight | ⭐                |
+| Status                          | Name      | Frequency of Use |
+|---------------------------------|-----------|------------------|
+| <input type=checkbox checked /> | Facade    | ⭐⭐⭐⭐⭐            |
+| <input type=checkbox />         | Adapter   | ⭐⭐⭐⭐             |
+| <input type=checkbox />         | Composite | ⭐⭐⭐⭐             |
+| <input type=checkbox />         | Proxy     | ⭐⭐⭐⭐             |
+| <input type=checkbox />         | Bridge    | ⭐⭐⭐              |
+| <input type=checkbox />         | Decorator | ⭐⭐⭐              |
+| <input type=checkbox />         | Flyweight | ⭐                |
 
 
 ### Behavioral patterns
