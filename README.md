@@ -25,13 +25,13 @@ When you write code, you often need to create objects. Creational design pattern
 
 The following design patterns fall under the category of Creational Design patterns:
 
-| Status                  | Name             | Frequency of Use |
-|-------------------------|------------------|------------------|
-| <input type=checkbox /> | Factory          | ⭐⭐⭐⭐⭐            |
-| <input type=checkbox /> | Abstract Factory | ⭐⭐⭐⭐⭐            |
-| <input type=checkbox /> | Singleton        | ⭐⭐⭐⭐             |
-| <input type=checkbox /> | Prototype        | ⭐⭐⭐              |
-| <input type=checkbox /> | Builder          | ⭐⭐               |
+| Status | Name             | Frequency of Use |
+|--------|------------------|------------------|
+| ✅      | Factory          | ⭐⭐⭐⭐⭐            |
+| 🚧     | Abstract Factory | ⭐⭐⭐⭐⭐            |
+| 🚧     | Singleton        | ⭐⭐⭐⭐             |
+| 🚧     | Prototype        | ⭐⭐⭐              |
+| 🚧     | Builder          | ⭐⭐               |
 
 ### Structural patterns
 Structural patterns focus on the composition of classes and objects, helping you form larger structures while keeping them flexible and efficient.
@@ -40,15 +40,15 @@ When you write code, you often encounter situations where you need to deal with 
 
 The following design patterns fall under the category of Structural Design patterns:
 
-| Status                          | Name      | Frequency of Use |
-|---------------------------------|-----------|------------------|
-| <input type=checkbox checked /> | Facade    | ⭐⭐⭐⭐⭐            |
-| <input type=checkbox />         | Adapter   | ⭐⭐⭐⭐             |
-| <input type=checkbox />         | Composite | ⭐⭐⭐⭐             |
-| <input type=checkbox />         | Proxy     | ⭐⭐⭐⭐             |
-| <input type=checkbox />         | Bridge    | ⭐⭐⭐              |
-| <input type=checkbox />         | Decorator | ⭐⭐⭐              |
-| <input type=checkbox />         | Flyweight | ⭐                |
+| Status | Name      | Frequency of Use |
+|--------|-----------|------------------|
+| 🚧     | Facade    | ⭐⭐⭐⭐⭐            |
+| 🚧     | Adapter   | ⭐⭐⭐⭐             |
+| 🚧     | Composite | ⭐⭐⭐⭐             |
+| 🚧     | Proxy     | ⭐⭐⭐⭐             |
+| 🚧     | Bridge    | ⭐⭐⭐              |
+| 🚧     | Decorator | ⭐⭐⭐              |
+| 🚧     | Flyweight | ⭐                |
 
 
 ### Behavioral patterns
@@ -56,19 +56,19 @@ Behavioral patterns are concerned with the interaction and communication between
 
 The following design patterns fall under the category of Behavioral Design patterns:
 
-| Status                  | Name                    | Frequency of Use |
-|-------------------------|-------------------------|------------------|
-| <input type=checkbox /> | Iterator                | ⭐⭐⭐⭐⭐            |
-| <input type=checkbox /> | Observer                | ⭐⭐⭐⭐⭐            |
-| <input type=checkbox /> | Command                 | ⭐⭐⭐⭐             |
-| <input type=checkbox /> | Strategy                | ⭐⭐⭐⭐             |
-| <input type=checkbox /> | State                   | ⭐⭐⭐              |
-| <input type=checkbox /> | Template Method         | ⭐⭐⭐              |
-| <input type=checkbox /> | Chain of Responsibility | ⭐⭐               |
-| <input type=checkbox /> | Mediator                | ⭐⭐               |
-| <input type=checkbox /> | Interpreter             | ⭐                |
-| <input type=checkbox /> | Memento                 | ⭐                |
-| <input type=checkbox /> | Visitor                 | ⭐                |
+| Status | Name                    | Frequency of Use |
+|--------|-------------------------|------------------|
+| 🚧     | Iterator                | ⭐⭐⭐⭐⭐            |
+| 🚧     | Observer                | ⭐⭐⭐⭐⭐            |
+| 🚧     | Command                 | ⭐⭐⭐⭐             |
+| 🚧     | Strategy                | ⭐⭐⭐⭐             |
+| 🚧     | State                   | ⭐⭐⭐              |
+| 🚧     | Template Method         | ⭐⭐⭐              |
+| 🚧     | Chain of Responsibility | ⭐⭐               |
+| 🚧     | Mediator                | ⭐⭐               |
+| 🚧     | Interpreter             | ⭐                |
+| 🚧     | Memento                 | ⭐                |
+| 🚧     | Visitor                 | ⭐                |
 
 
 ---
