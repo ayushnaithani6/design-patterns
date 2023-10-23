@@ -1,4 +1,5 @@
 ## Solid principles
+Tip: For following code start from `Main.java` file in each folder.
 
 ### S - Single responsibility principle
 - Class should have single responsibility, only one reason to change the class.
@@ -21,3 +22,20 @@ this from happening.
 
 In happypath these problems are solved by separating responsibilities.
 
+
+### O - Open Close Principle
+You can extend what a class does, but you shouldn't have to modify the class itself to make it work with new features. 
+This makes your code more flexible and easier to maintain.
+
+**Explanation of Code example:**
+
+We have different Types Employee and a Payroll system. BadPath scenario shows the way classes are written are difficult to maintain as requirements grows.
+HappyPath Scenario is solution following OCP.
+
+In this *badpath scenario*, if you want to introduce bonuses or handle different types of employees (e.g., full-time, part-time), 
+you might be tempted to modify the PayrollSystem class. 
+This violates the Open-Closed Principle.
+
+In this *happypath scenario*, the Employee interface is open for extension. 
+You can add new types of employees (e.g., PartTimeEmployee) without modifying the PayrollSystem class. 
+The PayrollSystem depends on the abstraction provided by the Employee interface and its concrete implementations.
