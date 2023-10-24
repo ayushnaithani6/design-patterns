@@ -6,6 +6,6 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Message msg = new Message("This is a new message");
         MessagePrinter printer = new MessagePrinter();
-        printer.writeMessage(msg, "test_msg.txt");
+        printer.writeMessage(msg);
     }
 }

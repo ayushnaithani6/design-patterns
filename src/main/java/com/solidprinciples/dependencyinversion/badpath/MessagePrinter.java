@@ -1,6 +1,5 @@
 package src.main.java.com.solidprinciples.dependencyinversion.badpath;
 
-import java.io.IOException;
 import java.io.PrintWriter;
 
 /** Let's say client of this class want to use different formatter
@@ -8,7 +7,7 @@ import java.io.PrintWriter;
  * code.
  */
 public class MessagePrinter {
-    public void writeMessage(Message msg, String fileName) throws IOException {
+    public void writeMessage(Message msg) {
         Formatter formatter = new JsonFormatter(); // depn on Formatter
         try(PrintWriter writer = new PrintWriter(System.out)) { // depn on PrintWriter
             writer.println(formatter.format(msg));
