@@ -1,5 +1,9 @@
 # Design Patterns
 
+## Before starting
+There is a folder `solidprinciples`. These are basic general SOLID principles, Following them can improve code quality. 
+It's a good starting point before directly jumping into nuances Design Patterns.
+
 ## What are Design Patterns ?
 Design patterns are reusable solutions to common software design problems. They provide a way to solve problems that software developers frequently encounter when designing and building applications. Think of them as proven blueprints or templates that guide you in creating well-structured, flexible, and maintainable software.
 
