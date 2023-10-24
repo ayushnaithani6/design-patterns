@@ -39,3 +39,20 @@ This violates the Open-Closed Principle.
 In this *happypath scenario*, the Employee interface is open for extension. 
 You can add new types of employees (e.g., PartTimeEmployee) without modifying the PayrollSystem class. 
 The PayrollSystem depends on the abstraction provided by the Employee interface and its concrete implementations.
+
+### L - Liskov Substitution Principle
+We should be able to substitute base class objects with child class objects and this should not alter behaviour of program.
+
+### I - Interface Segregation
+Clients (Classes) should not be forced to depend upon interfaces that they don't use. | Interface pollution 
+
+Signs of Interface pollution
+- Classes have empty method implementations
+- Method impl. throw UnsupportedOperationException (or similar)
+- Method impl. returns empty or null value
+
+Break bigger interfaces.
+
+### Dependency Inversion [Most used]
+1. High level modules should not depend upon low level modules, Both should depend upon abstractions. 
+2. Abstractions should not depend upon details. Details should depend on abstractions.
