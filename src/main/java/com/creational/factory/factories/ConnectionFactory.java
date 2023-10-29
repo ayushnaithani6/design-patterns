@@ -4,4 +4,5 @@ import src.main.java.com.creational.factory.databaseConnections.DatabaseConnecti
 
 public interface ConnectionFactory {
     DatabaseConnection createConnection();
+    void validateConnection();
 }

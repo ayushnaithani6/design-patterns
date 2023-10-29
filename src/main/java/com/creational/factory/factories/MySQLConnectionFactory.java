@@ -8,4 +8,9 @@ public class MySQLConnectionFactory implements ConnectionFactory {
     public DatabaseConnection createConnection() {
         return new MySQLConnection();
     }
+
+    @Override
+    public void validateConnection() {
+        System.out.println("MySQL connection validated");
+    }
 }

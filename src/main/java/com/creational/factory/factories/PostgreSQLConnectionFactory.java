@@ -8,4 +8,9 @@ public class PostgreSQLConnectionFactory implements ConnectionFactory {
     public DatabaseConnection createConnection() {
         return new PostgreSQLConnection();
     }
+
+    @Override
+    public void validateConnection() {
+        System.out.println("PostgreSQL connection validated");
+    }
 }
